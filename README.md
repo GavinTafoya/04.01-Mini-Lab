@@ -1,0 +1,6 @@
+#04.01 Mini-Lab Warmup
+###Description
+This warmup demonstrates API usage through the Canvas API to show all user courses and assignments related to them. It displays all unlocked courses on the home page and the user can sort by term to find the courses for their current term. Underneath the courses it lists all upcoming assignments, as well as the points they can be worth and their due dates. When clicked, the assignments pull up their own card which displays all the assignment's necessary information and adds the assignment's description.
+
+###Use
+To use the app, the user must clone the repo first and have maven installed locally. Once that is done they can open teminal and inside of the directory, they can run ``mvn clean compile`` and when the build is successful, they can run ``mvn spring-boot:run`` to start the application. It should automaticlaly install the dependencies needed through the clean compile and then accessing the app should be as simple as going to http://localhost:8080
